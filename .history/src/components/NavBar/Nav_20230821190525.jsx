@@ -8,7 +8,7 @@ export default function NavBar() {
         <a href="https://resilient-daffodil-3af864.netlify.app/">
           <img src={ytLogo} className="logo" alt="YouTube logo" />
         </a>
-        <h2>Home &nbsp;&nbsp;&nbsp;About &nbsp;&nbsp;&nbsp;Favorites</h2>
+        <h2>Home &nbsp;About Favorites</h2>
       </div>
     </>
   );

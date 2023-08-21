@@ -1,0 +1,33 @@
+.header {
+    border: 3px solid red;
+    width: 100vw;
+    padding: 3rem;
+}
+
+.header {
+    width: 100vw;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: #f8f8f8; /* You can choose any color you like */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header img {
+    height: 1.5rem; /* Adjust based on your preference */
+}
+
+.header nav a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: black; /* Adjust based on your preference */
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
