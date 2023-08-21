@@ -11,10 +11,6 @@
     z-index: 1000;
 }
 
-.header .nav {
-    position: relative;
-}
-
 .header img {
     height: 10rem;
     align-self: center;
