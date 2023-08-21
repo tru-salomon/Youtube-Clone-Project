@@ -1,4 +1,4 @@
-import Card from "./Card.jsx"
+import Card from "./card.jsx"
 
 export default function Cards() {
     return (
