@@ -1,20 +1,19 @@
 import Card from "./card.jsx"
+import './cards.css'
 
 export default function Cards() {
     return (
         <>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <div className="content">
+                <div className="videos">
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                </div>
+            </div>
         </>
     )
 }

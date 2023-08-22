@@ -5,9 +5,6 @@
     display: flex;
     padding: 3rem;
     background-color: #c00404;
-    position: fixed;
-    top: 0;
-    left: 0;
     z-index: 1000;
 }
 
@@ -30,4 +27,4 @@
 
 .header a:hover {
     color: #747bff;
-  }
+}
