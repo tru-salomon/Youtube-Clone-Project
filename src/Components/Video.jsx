@@ -10,7 +10,7 @@
     const [commenterName, setCommenterName] = useState("");
     const [comment, setComment] = useState("");
     const [commentArray, setCommentArray] = useState([]);
-    const [hasSubmitted, setSubmit] =useState(CSSFontFeatureValuesRule)
+    const [hasSubmitted, setSubmit] =useState(false)
   
     function handleSubmit(event) {
       event.preventDefault();
