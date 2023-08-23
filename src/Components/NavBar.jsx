@@ -1,5 +1,6 @@
-import ytLogo from "../../assets/logo/Youtube.256.png";
-import "./Nav.css"
+
+import ytLogo from "../assets/logo/Youtube.256.png";
+import "./navBar.css"
 
 export default function NavBar() {
   return (

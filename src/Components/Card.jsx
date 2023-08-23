@@ -1,7 +1,7 @@
-import Card from "./card.jsx"
-import './cards.css'
+import Card from "./Cards"
+// import './cards.css'
 
-export default function Cards() {
+export default function Card() {
     return (
         <>
             <div className="content">
