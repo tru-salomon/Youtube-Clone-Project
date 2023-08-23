@@ -9,11 +9,11 @@ import Video from "./Components/Video.jsx"
 import ErrorPage from "./Components/ErrorPage.jsx"
 import SearchBar from "./Components/SearchBar.jsx"
 import About from "./Components/About.jsx"
-import Card from "./Components/Card.jsx"
+// import Card from "./Components/Card.jsx"
 
 
 
- const YT_API_KEY = import.meta.env.VITE_APP_API_KEY
+const YT_API_KEY = import.meta.env.YT_CLONE_API_KEY;
  const YT_API_ENDPOINT= `https://www.googleapis.com/youtube/v3/search`;
 
 function App() {
