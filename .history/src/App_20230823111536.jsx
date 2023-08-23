@@ -3,23 +3,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react"
 import {useEffect} from "react"
 import './App.css'
-<<<<<<< HEAD
-import NavBar from "./Components/NavBar.jsx"
-import Cards from "./Components/Cards.jsx"
-import Video from "./Components/Video.jsx"
-import ErrorPage from "./Components/ErrorPage.jsx"
-import SearchBar from "./Components/SearchBar.jsx"
-import About from "./Components/About.jsx"
-// import Card from "./Components/Card.jsx"
-=======
 import NavBar from "./Components/NavBar/Nav.jsx"
 import Cards from "./Components/Cards/Cards.jsx"
 import Video from "./Components/Video/Video.jsx"
-import ErrorPage from "./Components/ErrorPopup/ErrorPage.jsx"
-import SearchBar from "./Components/Search/SearchBar.jsx"
+import ErrorPage from "./Components/ErrorPage.jsx"
+import SearchBar from "./Components/SearchBar.jsx"
 import About from "./Components/AboutPage/About.jsx"
 import Card from "./Components/Card/Card.jsx"
->>>>>>> a546da71d24c96f7bb920177a87bbd683a6c4f1b
 
 
 
