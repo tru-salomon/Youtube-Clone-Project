@@ -16,8 +16,7 @@ export default function ErrorPage() {
       <button onClick={navigateToSafety} className="btn btn-primary">
         Return to safety
       </button>
-
+      
     </div>
   );
 }
-
