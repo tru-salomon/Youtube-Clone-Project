@@ -9,7 +9,7 @@ import Video from "./Components/Video.jsx"
 import ErrorPage from "./Components/ErrorPage.jsx"
 import SearchBar from "./Components/SearchBar.jsx"
 import About from "./Components/About.jsx"
-import Card from "./Components/Card.jsx"
+// import Card from "./Components/Card.jsx"
 
 
 
