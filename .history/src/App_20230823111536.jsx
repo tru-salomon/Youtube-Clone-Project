@@ -6,8 +6,8 @@ import './App.css'
 import NavBar from "./Components/NavBar/Nav.jsx"
 import Cards from "./Components/Cards/Cards.jsx"
 import Video from "./Components/Video/Video.jsx"
-import ErrorPage from "./Components/ErrorPopup/ErrorPage.jsx"
-import SearchBar from "./Components/Search/SearchBar.jsx"
+import ErrorPage from "./Components/ErrorPage.jsx"
+import SearchBar from "./Components/SearchBar.jsx"
 import About from "./Components/AboutPage/About.jsx"
 import Card from "./Components/Card/Card.jsx"
 
