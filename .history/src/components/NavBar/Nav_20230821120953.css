@@ -1,0 +1,26 @@
+.header {
+    border: 3px solid red;
+    width: 100vw;
+    height: 0.25rem;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding: 3rem;
+    background-color: #c00404;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header img {
+    height: 10rem;
+    align-self: center;
+    margin-top: -3rem;
+}
+
+.header h1 {
+    /* height: 10rem; */
+    align-self: center;
+    margin-top: 3rem;
+}
