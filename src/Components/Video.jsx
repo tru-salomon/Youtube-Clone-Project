@@ -10,9 +10,18 @@
     const [commenterName, setCommenterName] = useState("");
     const [comment, setComment] = useState("");
     const [commentArray, setCommentArray] = useState([]);
+    const [hasSubmitted, setSubmit] =useState(CSSFontFeatureValuesRule)
   
     function handleSubmit(event) {
       event.preventDefault();
+      setSubmit(!hasSubmitted)
+      resetForm()
+
+    }
+    function resetForm(){
+        setCommenterName("");
+        setComment("")
+    }
   
       let newCommentArray = [...commentArray, { comment }];
   
@@ -64,7 +73,7 @@
       );
     }            
     
- }
+ 
  
 
 

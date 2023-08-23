@@ -6,7 +6,7 @@ import NavBar from "./Components/NavBar.jsx"
 import Cards from "./Components/Cards.jsx"
 import Video from "./Components/Video.jsx"
 import ErrorPage from "./Components/ErrorPage.jsx"
-import SearchResults from "./Components/SearchResults.jsx"
+import SearchBar from "./Components/SearchBar.jsx"
 import About from "./Components/About.jsx"
 
 
@@ -35,7 +35,7 @@ useEffect(()=>{
           <Route path="*" element={<ErrorPage />}></Route>
           <Route path="/About" element={<About/>}></Route>
           <Route path="/videos/:videoID" element={<Video />}></Route>
-          <Route path="/search/:searchResults" element={<SearchResults />}></Route>
+          <Route path="/search/:searchBar" element={<SearchBar />}></Route>
         </Routes>
       </Router>
     <h1>You tube </h1>
