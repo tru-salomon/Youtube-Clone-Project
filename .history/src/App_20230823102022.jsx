@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react"
 import {useEffect} from "react"
 import './App.css'
-import NavBar from "./Components/NavBar/Nav.jsx"
+import NavBar from "./Components/NavBar.jsx"
 import Cards from "./Components/Cards.jsx"
 import Video from "./Components/Video.jsx"
 import ErrorPage from "./Components/ErrorPage.jsx"
