@@ -1,4 +1,4 @@
-//import Card from "../Card/Card";
+import Card from "../Card/Card";
 import "./Cards.css";
 
 //export default function Cards() {
@@ -23,14 +23,11 @@ export default function Cards({ videos = [] }) {
     <div className="content">
       {videos.map((video) => (
         <div key={video.id.videoId} className="video">
+          <h3>{video.snippet.title}</h3>
           <img
-            className="thumbnail"
-            src={video.snippet.thumbnails.medium.url}
+            src={video.snippet.thumbnails.default.url}
             alt={video.snippet.title}
           />
-          <div className="video-text">
-            <h3>{video.snippet.title}</h3>
-          </div>
         </div>
       ))}
     </div>

@@ -3,7 +3,7 @@ import "./Nav.css";
 import { Link } from "react-router-dom";
 import SearchBar from "../Search/SearchBar";
 
-export default function NavBar({ setSearchTerm }) {
+export default function NavBar() {
   return (
     <>
       <div className="header">
@@ -15,7 +15,7 @@ export default function NavBar({ setSearchTerm }) {
             <Link to="/about">About</Link>
             <Link to="/favorites">✮ Faves</Link>
         </nav>
-        <SearchBar setSearchTerm={setSearchTerm} />
+        <SearchBar />
       </div>
     </>
   );

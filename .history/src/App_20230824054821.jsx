@@ -20,8 +20,8 @@ export default function App() {
 
   useEffect(() => {
     let endpoint = searchTerm
-      ? `${YT_API_ENDPOINT}?part=snippet&maxResults=20&q=${searchTerm}&regionCode=US&relevanceLanguage=en&order=rating&type=video&key=${YT_API_KEY}`
-      : `${YT_API_ENDPOINT}?part=snippet&order=rating&regionCode=US&maxResults=50&type=video&relevanceLanguage=en&key=${YT_API_KEY}`;
+      ? `${YT_API_ENDPOINT}?part=snippet&maxResults=20&q=${searchTerm}&regionCode=US&order=relevance&type=video&key=${YT_API_KEY}`
+      : `${YT_API_ENDPOINT}?part=snippet&order=rating&regionCode=US&maxResults=50&type=video&key=${YT_API_KEY}`;
 
     fetch(endpoint)
       .then(response => response.json())
@@ -39,13 +39,9 @@ export default function App() {
         <NavBar setSearchTerm={setSearchTerm} />
         <Routes>
           <Route path="/" element={<Cards videos={videos} />} />
-          <Route
-            path="/search/:searchTerm"
-            element={<Cards videos={videos} />}
-          />
+          <Route path="*" element={<ErrorPage />} />
           <Route path="/About" element={<About />} />
           <Route path="/videos/:videoID" element={<Video />} />
-          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>
     </div>

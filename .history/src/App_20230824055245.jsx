@@ -39,13 +39,9 @@ export default function App() {
         <NavBar setSearchTerm={setSearchTerm} />
         <Routes>
           <Route path="/" element={<Cards videos={videos} />} />
-          <Route
-            path="/search/:searchTerm"
-            element={<Cards videos={videos} />}
-          />
+          <Route path="*" element={<ErrorPage />} />
           <Route path="/About" element={<About />} />
           <Route path="/videos/:videoID" element={<Video />} />
-          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>
     </div>

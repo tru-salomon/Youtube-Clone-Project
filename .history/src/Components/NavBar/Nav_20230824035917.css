@@ -15,11 +15,10 @@
     position: relative;
     display: flex;
     list-style: none;
-    margin-top: 10rem;
 }
 
 .header nav a {
-    margin: 0 2rem;
+    margin: 0 1.5rem;
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
