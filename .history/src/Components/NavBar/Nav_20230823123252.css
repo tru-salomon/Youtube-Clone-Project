@@ -15,7 +15,6 @@
     position: relative;
     display: flex;
     list-style: none;
-    margin: 4rem 83rem 0rem 0rem; 
 }
 
 .header nav a {
@@ -29,8 +28,16 @@
 
 .header img {
     height: 10rem;
-    margin-top: 6.5rem;
+    align-self: center;
+    margin-top: 3rem;
 }
+
+/* .header h1 { */
+    /* /~ height: 10rem; ~/ */
+    /* align-self: center; */
+    /* margin-top: 4.5rem; */
+    /* color: white; */
+/* } */
 
 .header nav a:hover {
     color: #747bff;
