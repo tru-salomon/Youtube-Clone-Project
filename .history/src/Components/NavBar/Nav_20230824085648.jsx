@@ -5,7 +5,7 @@ import SearchBar from "../Search/SearchBar";
 
 export default function NavBar({ setSearchTerm }) {
     const handleLinkClick = () => {
-        setSearchTerm('');
+        setSearchTerm("");
     };
 
   return (

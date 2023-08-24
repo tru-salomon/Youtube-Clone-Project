@@ -12,15 +12,13 @@ export default function Video() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    //let newCommentArray = [...commentArray, { comment }];
-    let newCommentArray = [...commentArray, { commenterName, comment }];
+    let newCommentArray = [...commentArray, { comment }];
 
     setCommentArray(newCommentArray);
     setCommenterName("");
     setComment("");
   }
   console.log(commentArray);
-
   return (
     <div className="container-fluid">
       <div style={{ textAlignVertical: "center", textAlign: "center" }}>
@@ -50,11 +48,10 @@ export default function Video() {
             <button>Add Comment</button>
 
             <ul className="comments"> </ul>
-            {/*{commentArray.map((videoId, index) => {*/}
-            {commentArray.map((commentObj, index) => {  
+            {commentArray.map((videoId, index) => {
               return (
                 <li key={index}>
-                  {commentObj.commenterName} says {`"${commentObj.comment}"`}
+                  {videoId.commenterName} says {`"${videoId.comment}"`}
                 </li>
               );
             })}

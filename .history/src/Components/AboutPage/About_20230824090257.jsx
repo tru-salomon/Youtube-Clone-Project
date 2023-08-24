@@ -12,9 +12,7 @@ export default function About() {
   const ChrisBio =
     "Worked on errorPage";
   return (
-    <div
-      className="about-wrapper"
-      style={{ textAlignVertical: "center", textAlign: "center" }}>
+    <div className="about-wrapper" style={{ textAlignVertical: "center", textAlign: "center" }}>
       <article key="about">
         {/* <Routes>
           <Route path="/" element={<Navigate to="Home" />} />
@@ -26,7 +24,7 @@ export default function About() {
       <p>{shaqFredBio}</p>
       <a href={"https://github.com/shaqfred"}>Shaquala's GitHub Link</a>
       <p>{RiconsBio}</p>
-      <a href={"https://github.com/RAWdevX21"}> Ricon's GitHub Link</a>
+      <a href={""}> Ricon's GitHub Link</a>
       <p>{ChrisBio}</p>
       <a href={""}> Chris's GitHub Link</a>
     </div>

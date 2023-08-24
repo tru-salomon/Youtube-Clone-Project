@@ -31,6 +31,23 @@ import './Card.css'
 //    )
 //}
 
+//export default function Card({ videoId }) {
+//    return (
+//        <>
+//            <div className="video">
+//                <Link to={`/videos/${videoId}`}>
+//                    <div className="thumbnail">
+//                        <img src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`} alt="" />
+//                    </div>
+//                </Link>
+//            </div>
+//        </>
+//    )
+//}
+
+import { Link } from "react-router-dom";
+import "./Card.css";
+
 export default function Card({ videoId, thumbnailUrl, title }) {
   return (
     <div className="video">
