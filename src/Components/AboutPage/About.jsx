@@ -5,8 +5,8 @@ export default function About() {
   const projectBio =
     "This project was built by a team of 5 developers. We used a React VITE framework to create a Youtube clone that allows the user to search & display a single video as well as the ability to share & send any video. ";
 
-  const shaqFredBio = 
-  "Shaquala is a cat lover. she loves God and has 2 daughters who bring her joy.She strives for greatness and want to pay it forward so that others may have opportunities to fulfill their dreams."
+  const shaqFredBio =
+    "Shaquala is a cat lover. she loves God and has 2 daughters who bring her joy.She strives for greatness and want to pay it forward so that others may have opportunities to fulfill their dreams."
   const RiconsBio =
     "I've grown passionate about promoting Open Source and Open Standards as I delve into writing code to enhance the workflow and productivity of everyday leaders. Currently, as I explore my potential for crafting technological content through my involvement in the Pursuit program as a 10.1 cohort fellow, I'm dedicated to honing my skills in software engineering. With a background that's as diverse as it is unconventional, my aim is to stretch limits and devise solutions that connect with folks.";
   const ChrisBio =
