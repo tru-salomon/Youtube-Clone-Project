@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import Youtube from "react-youtube";
 import React, { useState } from "react";
+import "./Video.css"
 
 export default function Video() {
   const { videoId } = useParams();
