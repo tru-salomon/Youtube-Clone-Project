@@ -27,7 +27,11 @@
 }
 
 .video {
+<<<<<<< HEAD
     margin-top: 10rem;
+=======
+    margin-top: 10.6rem;
+>>>>>>> ricdw-b
 }
 
 @media (max-width: 768px) {
