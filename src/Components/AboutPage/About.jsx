@@ -11,6 +11,8 @@ export default function About() {
     "great coder.";
   const ChrisBio =
     "Worked on errorPage";
+  const TyllerBio =
+    "Worked on search bar, wants to advance his knowledge on tech so he can advance it as we use it today."
   return (
     <div className="about-wrapper" style={{ textAlignVertical: "center", textAlign: "center" }}>
       <article key="about">
@@ -27,6 +29,8 @@ export default function About() {
       <a href={""}> Ricon's GitHub Link</a>
       <p>{ChrisBio}</p>
       <a href={""}> Chris's GitHub Link</a>
+      <p>{TyllerBio}</p>
+      <a href={"https://github.com/tsunami-dev"}> Tyller's GitHub Link</a>
     </div>
   );
 }
