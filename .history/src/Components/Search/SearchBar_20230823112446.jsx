@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import { Paper, IconButton } from '@mui/material';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './SearchBar.css';
+
 
 
 const SearchBar = () => {
