@@ -15,7 +15,7 @@
     position: relative;
     display: flex;
     list-style: none;
-    margin: 4rem 83rem 0rem 0rem; 
+    margin: 4rem 20rem 0rem -10rem; 
 }
 
 .header nav a {
