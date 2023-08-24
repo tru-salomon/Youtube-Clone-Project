@@ -26,10 +26,6 @@
     overflow-y: hidden;
 }
 
-.video {
-    margin-top: 10rem;
-}
-
 @media (max-width: 768px) {
     .side-bar {
         display: none;
