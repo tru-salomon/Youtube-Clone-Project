@@ -9,7 +9,7 @@ import Video from "./components/Video/Video.jsx"
 import ErrorPage from "./Components/ErrorPopup/ErrorPage.jsx"
 import SearchBar from "./Components/Search/SearchBar.jsx"
 import About from "./Components/AboutPage/About.jsx"
-// import Card from "./Components/Card/Card.jsx"
+
 
 
 const YT_API_KEY = import.meta.env.VITE_APP_API_KEY

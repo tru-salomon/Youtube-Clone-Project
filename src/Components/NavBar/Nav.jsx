@@ -1,6 +1,7 @@
 import ytLogo from "../../assets/logo/Youtube.256.png";
 import "./Nav.css";
 import { Link } from "react-router-dom";
+import SearchBar from "../Search/SearchBar";
 
 export default function NavBar() {
   return (
@@ -9,6 +10,7 @@ export default function NavBar() {
         <Link to="/">
           <img src={ytLogo} className="logo" alt="YouTube logo" />
         </Link>
+        <SearchBar />
         <nav>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
