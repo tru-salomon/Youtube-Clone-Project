@@ -4,6 +4,7 @@ import React from "react"
 import {useEffect} from "react"
 import './App.css'
 <<<<<<< HEAD
+<<<<<<< HEAD
 import NavBar from "./Components/NavBar.jsx"
 import Cards from "./Components/Cards.jsx"
 import Video from "./Components/Video.jsx"
@@ -12,6 +13,8 @@ import SearchBar from "./Components/SearchBar.jsx"
 import About from "./Components/About.jsx"
 // import Card from "./Components/Card.jsx"
 =======
+=======
+>>>>>>> 42f9dcfacf01794a9cbbd8a541dda9ad947efe59
 import NavBar from "./Components/NavBar/Nav.jsx"
 import Cards from "./Components/Cards/Cards.jsx"
 import Video from "./Components/Video/Video.jsx"
@@ -19,11 +22,15 @@ import ErrorPage from "./Components/ErrorPopup/ErrorPage.jsx"
 import SearchBar from "./Components/Search/SearchBar.jsx"
 import About from "./Components/AboutPage/About.jsx"
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Card from "./Components/Card/Card.jsx"
 >>>>>>> a546da71d24c96f7bb920177a87bbd683a6c4f1b
 =======
 //import Card from "./Components/Card/Card.jsx"
 >>>>>>> bde9e9479f89f37049f7b0e0c124edcdee37e4ba
+=======
+// import Card from "./Components/Card/Card.jsx"
+>>>>>>> 42f9dcfacf01794a9cbbd8a541dda9ad947efe59
 
 
 
