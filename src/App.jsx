@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Box } from '@material-ui/core';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Box } from '@mui/material';
 import { Navbar, Home_Feed, Video, Channel, SearchResult } from './components/';
 
 
