@@ -1,3 +1,19 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar-btn:hover {
+    background-color: #FC1503 !important;
+    color: white !important;
+}
+
+.sidebar-btn:hover span {
+    color: white !important;
+}
+
 .sidebar-btn {
     font-weight: bold !important;
     text-transform: capitalize;

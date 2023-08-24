@@ -26,6 +26,9 @@ const Home_Feed = () => {
         <Typography variant="h4" fontWeight='bold' mb={2}>
           New <span style={{ color: 'red' }}>Videos</span>
         </Typography>
+
+        <Box videos={[]} />
+        
       </Box>
     </Stack>
   )
