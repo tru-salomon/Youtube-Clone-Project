@@ -1,5 +1,4 @@
 import React from "react";
-import './About.css'
 
 export default function About() {
   const projectBio =
@@ -12,7 +11,7 @@ export default function About() {
   const ChrisBio =
     "Worked on errorPage";
   return (
-    <div className="about-wrapper" style={{ textAlignVertical: "center", textAlign: "center" }}>
+    <div style={{ textAlignVertical: "center", textAlign: "center" }}>
       <article key="about">
         {/* <Routes>
           <Route path="/" element={<Navigate to="Home" />} />
