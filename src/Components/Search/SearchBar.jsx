@@ -9,13 +9,17 @@ import SearchIcon from '@mui/icons-material/Search';
 const SearchBar = ({ setSearchTerm }) => {
   const [localSearchTerm, setLocalSearchTerm] = useState('');
   const navigate = useNavigate();
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (localSearchTerm) {
       console.log("Searching for:", localSearchTerm);
       setSearchTerm(localSearchTerm);
       navigate(`/search/${localSearchTerm}`);
+      setLocalSearchTerm('');
+    }
+    if (!localSearchTerm) {
+      navigate("*");
     }
   };
   return (
