@@ -8,6 +8,7 @@ import { Video } from '../index';
 const SearchResult = () => {
 
   const [videos, setVideos] = useState([]);
+  
   const { searchQuery } = useParams();
 
   useEffect(() => {
