@@ -38,7 +38,6 @@ export default function App() {
     <div className="App">
       <Router>
         <NavBar setSearchTerm={setSearchTerm} />
-        <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         <Routes>
           <Route path="/" element={<Cards videos={videos} />} />
           <Route
