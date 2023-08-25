@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Paper, IconButton } from '@mui/material';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './SearchBar.css';
+import SearchIcon from '@mui/icons-material/Search';
 
 
 const SearchBar = ({ setSearchTerm }) => {
@@ -37,7 +38,7 @@ const SearchBar = ({ setSearchTerm }) => {
         onChange={(e) => setLocalSearchTerm(e.target.value)}
       />
       <IconButton type='submit' sx={{ p: '10px', color: 'red' }} aria-label='search'>
-        
+        <SearchIcon />
       </IconButton>
     </Paper>
   );
