@@ -8,6 +8,18 @@ import SearchIcon from '@mui/icons-material/Search';
 
 
 const Navbar = () => {
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (searchQuery) {
+      navigate(`/search/${searchQuery}`);
+      setSearchQuery('');
+    }
+  }
+
   return (
     <Stack direction="row" alignItems="center" p={2} sx={{ position: "sticky", background: '#000', top: 0, justifyContent: 'space-between' }}>
 
@@ -17,7 +29,7 @@ const Navbar = () => {
 
       <Paper
         component="form"
-        onSubmit={() => { }}
+        onSubmit={handleSubmit}
         sx={{
           borderRadius: 20,
           border: '1px solid #e3e3e3',
@@ -28,8 +40,8 @@ const Navbar = () => {
       >
         <input className='search-bar'
           placeholder='Search...'
-          value=""
-          onChange={() => { }} />
+          value={searchQuery}
+          onChange={(e) => { setSearchQuery(e.target.value) }} />
         <IconButton type='submit' sx={{ p: '10px', color: 'red' }}>
           <SearchIcon />
         </IconButton>
