@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SearchIcon from '@mui/icons-material/Search'
 import './SearchBar.css';
 
+
 const SearchBar = ({ setSearchTerm }) => {
   const [localSearchTerm, setLocalSearchTerm] = useState('');
   const navigate = useNavigate();
