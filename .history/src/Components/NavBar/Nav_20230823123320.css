@@ -1,0 +1,48 @@
+.header {
+    border: 3px solid red;
+    width: 100vw;
+    height: 0.25rem;
+    display: flex;
+    padding: 3rem;
+    background-color: #c00404;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header nav>ul {
+    position: relative;
+    display: flex;
+    list-style: none;
+}
+
+.header nav a {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.header img {
+    height: 10rem;
+    align-self: center;
+    margin-top: 6rem;
+}
+
+/* .header h1 { */
+    /* /~ height: 10rem; ~/ */
+    /* align-self: center; */
+    /* margin-top: 4.5rem; */
+    /* color: white; */
+/* } */
+
+.header nav a:hover {
+    color: #747bff;
+  }
+  
+.header a:hover {
+    color: #747bff;
+  }  

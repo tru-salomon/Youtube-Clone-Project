@@ -1,0 +1,41 @@
+.header {
+    border: 3px solid red;
+    width: 100vw;
+    height: 0.25rem;
+    display: flex;
+    padding: 3rem;
+    background-color: #c00404;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header nav>ul {
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: 4rem 80rem 0rem 0rem; 
+}
+
+.header nav a {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.header img {
+    height: 10rem;
+    margin-top: 6.5rem;
+}
+
+.header nav a:hover {
+    color: #747bff;
+  }
+  
+.header a:hover {
+    color: #747bff;
+  }  
