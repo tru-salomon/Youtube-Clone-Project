@@ -53,5 +53,9 @@
     margin-top: 0;
     text-align: center;
     color: black;
+}
+
+.video-text:hover {
+    color: #007bff;
     text-decoration: none;
 }
