@@ -23,21 +23,24 @@ export default function About() {
     },
     {
       name: "Chris",
-      bio: "It's been uphill battle throughout this module for Chris. He is an animal aficiado with a passion for the healthcare of both people and birds. He wants to incorporate his prior knowledge into the software industry and has been making strides; both big and small. He worked hard on his ErrorPage to give a fun effect and likes messing around with CSS. ",
+      bio: "It's been uphill battle throughout this module for Chris. He is an animal aficiado with a passion for the healthcare of both people and birds. He wants to incorporate his prior knowledge into the software industry and has been making strides; both big and small. He worked hard on his ErrorPage to give a fun effect and enjoyed messing around with the CSS. ",
       githubLink: "https://github.com/CSAN7690",
       image: "https://avatars.githubusercontent.com/u/127960419?v=4"
     },
 
     {
       name: "Tyller",
-      bio: " ",
+      bio: "Tyller is a self-taught developer with one year of entry-level experience in full-stack development and data analysis. Tyller played a pivotal role in the successful integration of the SearchBar feature into our YouTube platform, demonstrating impressive functionality. ",
       githubLink: "https://github.com/tsunami-dev",
+      image: "https://avatars.githubusercontent.com/u/76138922?v=4"
     },
 
     {
       name: "Daniel",
-      bio: "",
-      githubLink: "",
+      bio: "Helped start the Youtube project for us and implemented changes with Cards, design changes, & repurposed API function. Daniel is a Cybersecurity enthusiast and is currently studying Cybersecurity at Masterschool. ",
+      githubLink: " https://github.com/tru-salomon",
+      image: "https://avatars.githubusercontent.com/u/131703377?v=4"
+
 
     }
 
