@@ -48,7 +48,7 @@ export default function About() {
 
   return (
     <div className="about-wrapper">
-      <div className="section">
+      <div className="section" style={{ marginTop: "100px" }}>
         <h2>About Our Project</h2>
         <p>{projectBio}</p>
       </div>
